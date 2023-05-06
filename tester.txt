@@ -1,0 +1,5 @@
+                        else if (oper == '*')
+                        {
+                            total = a * b;
+                            Console.WriteLine($"Произведение {a} и {b} равно {total}.");
+                        }
