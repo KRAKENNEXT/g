@@ -30,3 +30,24 @@ namespace Calculate
                             total = a * b;
                             Console.WriteLine($"Произведение {a} и {b} равно {total}.");
                         }
+                            else if (oper == '/')
+                            {
+                                total = a / b;
+                                Console.WriteLine($"Частное от деления {a} на {b} равно {total}.");
+                            }
+                                else if (oper == '^')
+                                {
+                                    total = Math.Pow(a, b);
+                                    Console.WriteLine($"Число {a} возведённое в степень {b} равно {total}.");
+                                }
+                    else
+                    {
+                        Console.WriteLine("Неучтённый оператор");
+                    }
+                Console.WriteLine("Хотите продолжить работу с программой? (y/n)");
+                again = Convert.ToChar(Console.ReadLine());
+            }
+        }
+    }
+}
+
