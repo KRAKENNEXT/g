@@ -20,4 +20,3 @@ namespace Calculate
                     total = a + b;
                     Console.WriteLine($"Сумма {a} и {b} равна {total}.");
                 }
->>>>>>> test1
