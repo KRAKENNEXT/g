@@ -25,3 +25,8 @@ namespace Calculate
                         total = a - b;
                         Console.WriteLine($"Разность {a} и {b} равна {total}.");
                     }
+                        else if (oper == '*')
+                        {
+                            total = a * b;
+                            Console.WriteLine($"Произведение {a} и {b} равно {total}.");
+                        }
