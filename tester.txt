@@ -15,3 +15,9 @@ namespace Calculate
                 var oper = Convert.ToChar(Console.ReadLine());
                 Console.WriteLine("Введите второе число");
                 var b = Convert.ToDouble(Console.ReadLine());
+                if (oper == '+')
+                {
+                    total = a + b;
+                    Console.WriteLine($"Сумма {a} и {b} равна {total}.");
+                }
+>>>>>>> test1
